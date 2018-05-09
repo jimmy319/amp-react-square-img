@@ -7,13 +7,11 @@ module.exports = {
     component: './src/SquareImage.js'
   },
   externals: {
-    react: 'react'
+    React: 'react'
   },
   output: {
     path: path.resolve(__dirname, 'dist/'),
-    filename: '[name].js',
-    libraryTarget: 'umd',
-    umdNamedDefine: true
+    filename: '[name].js'
   },
   module: {
     rules: [
