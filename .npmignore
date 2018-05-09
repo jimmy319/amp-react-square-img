@@ -5,4 +5,5 @@ __tests__/
 README.md
 .travis.yml
 webpack.config.js
+postcss.config.js
 yarn.lock

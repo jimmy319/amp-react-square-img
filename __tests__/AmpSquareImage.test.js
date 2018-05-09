@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import AmpSquareImage, { statics } from '../dist/component'
+import AmpSquareImage, { statics } from '../src/SquareImage.js'
 
 describe('Test passing src to component', () => {
   test('[Normal Flow] Pass image url to component and DOM should be rendered with given src', () => {
