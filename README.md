@@ -23,8 +23,8 @@ An amp-react component rendering image in square shape on AMP page. It will help
 ## Example
 
 ```javascript
-import SquareImage, { statics } from 'amp-square-img'
-import 'amp-square-img/dist/css/component.css'
+import SquareImage, { statics } from 'amp-react-square-img'
+import 'amp-react-square-img/dist/css/component.css'
 
 <SquareImage src='https://s.yimg.cc/irq/test.jpg' resizingStrategy={statics.CONTAIN_RESIZING} />
 ```
