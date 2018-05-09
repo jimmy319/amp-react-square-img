@@ -1,0 +1,38 @@
+{
+  "name": "amp-react-square-img",
+  "description": ":zap:An amp-react component rendering image in square shape on AMP page.:zap:",
+  "version": "0.0.1",
+  "main": "./dist/component.js",
+  "repository": "git@github.com:jimmy319/amp-react-square-img.git",
+  "author": "CR Jimmy <jimmy74319@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-css-modules-transform": "^1.6.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jest": "^22.4.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-test-renderer": "^16.3.2",
+    "standard": "^11.0.1",
+    "webpack": "^3.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "lint": "standard",
+    "test": "jest"
+  },
+  "standard": {
+    "ignore": [
+      "dist/",
+      "__tests__/"
+    ]
+  }
+}

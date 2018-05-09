@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test passing src to component [Normal Flow] Pass image url to component and DOM should be rendered with given src 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class={undefined}
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test2.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
+
+exports[`Test resizingStrategy [Abnormal Flow] Pass UNKOWN_RESIZING to component and nothing being append onto DOM 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class={undefined}
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
+
+exports[`Test resizingStrategy [Normal Flow] Pass CONTAIN_RESIZING to component and \`contain\` class should be append onto DOM 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class="SquareImage__contain___3Nskz"
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
+
+exports[`Test resizingStrategy [Normal Flow] Pass COVER_RESIZING to component and \`cover\` class should be append onto DOM 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class="SquareImage__cover___lDXKz"
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
+
+exports[`Test resizingStrategy [Normal Flow] Pass FILL_RESIZING to component and \`fill\` class should be append onto DOM 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class="SquareImage__fill___bdZjK"
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
+
+exports[`Test resizingStrategy [Normal Flow] Pass NONE_RESIZING to component and \`none\` class should be append onto DOM 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class="SquareImage__none___jq2dA"
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
+
+exports[`Test resizingStrategy [Normal Flow] Pass SCALE_DOWN_RESIZING to component and \`scale-down\` class should be append onto DOM 1`] = `
+<div
+  className="SquareImage__wrapper___3Vewc"
+>
+  <amp-img
+    alt={undefined}
+    attribution={undefined}
+    class="SquareImage__scale-down___2YrR-"
+    height={undefined}
+    layout="fill"
+    sizes={undefined}
+    src="https://s.yimg.ir/q/test.jpg"
+    srcset={undefined}
+    width={undefined}
+  />
+</div>
+`;
