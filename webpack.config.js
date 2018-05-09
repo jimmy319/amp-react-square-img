@@ -18,10 +18,7 @@ module.exports = {
       {
         test: /\.js$/,
         use: {
-          loader: 'babel-loader',
-          options: {
-            cacheDirectory: true
-          }
+          loader: 'babel-loader'
         },
         include: path.resolve(__dirname, 'src'),
         exclude: [
