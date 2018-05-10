@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jimmy319/amp-react-square-img.svg?branch=master)](https://travis-ci.org/jimmy319/amp-react-square-img)
+[![codecov](https://codecov.io/gh/jimmy319/amp-react-square-img/branch/master/graph/badge.svg)](https://codecov.io/gh/jimmy319/amp-react-square-img)
 
 # amp-react-square-img:zap:
 An amp-react component rendering image in square shape on AMP page. It will help you maintain the correct aspect ratio of image according to the resizing strategy(cover, contain ... etc) you specified.
