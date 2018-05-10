@@ -15,8 +15,6 @@ An amp-react component rendering image in square shape on AMP page. It will help
 | sizes | string | same as sizes attribute on the img tag |
 | alt | string | same as alt attribute on the img tag |
 | attribution | string | a string that indicates the attribution of the image |
-| width | number | same as width attribute on the img tag |
-| height | number | same as height attribute on the img tag |
 | fallbackImg | string | the source url of fallback image |
 | resizingStrategy | string | all the valid values of css property `object-fit` can be used here |
 

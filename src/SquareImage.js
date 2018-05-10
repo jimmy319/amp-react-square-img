@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './SquareImage.css'
 
-const AmpSquareImage = ({ src, srcset, sizes, alt, attribution, width, height, fallbackImg, resizingStrategy = '', children }) => {
+const AmpSquareImage = ({ src, srcset, sizes, alt, attribution, fallbackImg, resizingStrategy = '', children }) => {
   return (
     <div className={style['wrapper']}>
       <amp-img
@@ -12,8 +12,6 @@ const AmpSquareImage = ({ src, srcset, sizes, alt, attribution, width, height, f
         sizes={sizes}
         alt={alt}
         attribution={attribution}
-        width={width}
-        height={height}
       />
       {
         fallbackImg
@@ -22,8 +20,6 @@ const AmpSquareImage = ({ src, srcset, sizes, alt, attribution, width, height, f
             fallback=''
             src={fallbackImg}
             layout='fill'
-            width={width}
-            height={height}
           />
           : null
       }
