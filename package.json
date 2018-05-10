@@ -1,7 +1,7 @@
 {
   "name": "amp-react-square-img",
   "description": ":zap:An amp-react component rendering image in square shape on AMP page.:zap:",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/SquareImage.js",
   "repository": "git@github.com:jimmy319/amp-react-square-img.git",
   "author": "CR Jimmy <jimmy74319@gmail.com>",
